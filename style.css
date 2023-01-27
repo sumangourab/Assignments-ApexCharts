@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.title {
+    width: 98%;
+    height: 40px;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    border-radius: 5px;
+    border-left: 3px solid #ff4560;
+    display: flex;
+    align-items: center;
+
+}
+.title span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family:sans-serif ;
+}
+.title span:nth-child(1) {
+    color:#ff4560;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.title span:nth-child(2) {
+    color:#1706b4;
+   
+}
